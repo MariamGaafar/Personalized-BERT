@@ -77,8 +77,14 @@ numpy >= 1.24
 Install everything in one step:
 
 ```bash
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-pip install transformers scikit-learn pandas openpyxl matplotlib numpy
+# PyTorch — CPU only
+pip install torch
+
+# PyTorch — GPU (CUDA 11.8)
+pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+# Remaining dependencies
+pip install transformers scikit-learn pandas openpyxl matplotlib numpy kagglehub
 ```
 
 ---
