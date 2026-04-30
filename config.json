@@ -1,0 +1,26 @@
+{
+    "raw_text_path":          "data/pan17_documents.json",
+    "bert_embeddings_path":   "data/Pan17_bert_embeddings.jsonl",
+    "personality_path":       "data/pan17_personality_predictions_sentence_BERT.jsonl",
+    "emotion_path":           "data/pan17_emotion_predictions.jsonl",
+    "emoji_stats_path":       "data/emoji_stats_holdout.json",
+    "emoji_counts_path":      "data/emoji_counts.xlsx",
+    "similarity_path":        "data/emoji_similarity.json",
+
+    "emoji_thresholds":       [20, 50, 64, 100, 150, 200, 250, 300],
+    "repetitions":            10,
+    "num_epochs":             10,
+    "batch_size":             128,
+    "val_split":              0.1,
+    "semantic_threshold":     0.7,
+    "checkpoint_dir":         "checkpoints",
+    "results_dir":            "results",
+
+    "experiments": [
+        {"name": "BERT",               "use_personality": false, "use_emotion": false, "use_usage": false},
+        {"name": "BERT_Emotion",       "use_personality": false, "use_emotion": true,  "use_usage": false},
+        {"name": "BERT_Personality",   "use_personality": true,  "use_emotion": false, "use_usage": false},
+        {"name": "BERT_Usage",         "use_personality": false, "use_emotion": false, "use_usage": true},
+        {"name": "Personalized_BERT",  "use_personality": true,  "use_emotion": true,  "use_usage": true}
+    ]
+}

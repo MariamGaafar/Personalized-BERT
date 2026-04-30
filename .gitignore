@@ -1,0 +1,29 @@
+# Data files (raw PAN-17 data is private; all data/ files are derived or placeholder)
+data/
+
+# Model checkpoints
+checkpoints/
+
+# Experiment results
+results/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Kaggle credentials (never commit)
+.kaggle/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
