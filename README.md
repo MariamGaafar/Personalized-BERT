@@ -6,7 +6,7 @@ Implementation of the paper:
 > Mariam Gaafar, Ahmed Rafea, Alia El-Bolock  
 > *Procedia Computer Science 275 (2026) 762–770*  
 > ACLing 2025 – 7th International Conference on AI in Computational Linguistics  
-> DOI: [10.1016/j.procs.2026.xx.xxx](https://doi.org/10.1016/j.procs.2026.xx.xxx)
+> DOI: [link](https://www.sciencedirect.com/science/article/pii/S1877050926000888)
 
 ---
 
